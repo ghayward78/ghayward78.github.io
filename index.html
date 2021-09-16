@@ -10,64 +10,123 @@
 <section id="intro">
     <h1>Hello! I'm Georgia.</h1>
     <p>I'm a web devleoper primarily focused on wordpress development, but with a passion for all things web.</p>
+
             <img class="round" src="images/Headshot.jpg">
-</section>
-<section id="my-work">
-    <div class="work-items">
-    <div class="work-item">
-    <div class="work-image">
+</section> 
+<section class="single-work-section" id="fech">
+    <div class="half work-detail">
+        <h3>Dropshipping Software</h3>
+        <ul>
+            <li>Bespoke WordPress Theme and Plugin for dropshipping. 
+                <li>Integrates with an Amazon API to import and regularly update product information.
+            <li>Creates and reads CSV files from eBay to marry up data.</li>
+        <li>PMPro Membership Integration</li></ul>
+        <div><a class="btn btn-squared" href="https://www.youtube.com/watch?v=EchX3bGrKAY" target="_blank">Site Demo</a></div>
+    </div>
+    <div class="half">
+        <div class="work-image">
         <img src="portfolio/dropshipping/1.JPG">
         <img src="portfolio/dropshipping/2.JPG">
         <img src="portfolio/dropshipping/3.JPG">
         <img src="portfolio/dropshipping/4.JPG">
         <img src="portfolio/dropshipping/5.JPG">
     </div>
-        <h3>Dropshipping Software</h3>
-        <ul>
-            <li>Bespoke WordPress Theme and Plugin for dropshipping. 
-                <li>Integrates with an Amazon API to import and regularly update product information.
-            <li>Creates and reads CSV files from eBay to marry up data.</li></ul>
     </div>
-    <div class="work-item">
-    <div class="work-image">
+</section>
+<section class="single-work-section" id="ela">
+    
+    <div class="half">
+        <div class="work-image">
         <img src="portfolio/lifestyle-academy/1.JPG">
         <img src="portfolio/lifestyle-academy/2.JPG">
     </div>
+    </div>
+    <div class="half work-detail">
         <h3>Lifestyle Academy</h3>
         <ul>
-        <li>WordPress Template site</li>
-        <li>Uses Learndash plugin for LMS</li></ul>
+            <li>WordPress Template site
+            <li>Learndash LMS
+        <li>Stripe Payment Processing</li></ul>
+        <div><a class="btn btn-squared" href="https://elevatelifestyleacademy.com/" target="_blank">Visit Site</a></div>
     </div>
-        <div class="work-item">
-    <div class="work-image">
-        <img src="images/placeholder.png">
-    </div>
-        <h3>Company Website</h3>
-            <ul>
-            <li>Bespoke WordPress Theme from XD Design. 
-                <li>Uses ACF for
+</section>
+<section class="single-work-section" id="company-site">
+    <div class="half work-detail">
+        <h3>Company Webite</h3>
+        <ul>
+            <li>Bespoke site build from XD Design. 
+                <li>Built using Advanced Custom Fields & _underscores 
             <li>CPT used for Portfolio management.</li></ul>
+        <div><a class="btn btn-squared" href="https://institution.co.uk/" target="_blank">Visit Site</a></div>
+
+    </div>
+    <div class="half">
+     <div class="work-image">
+        <img src="portfolio/company-site/1.gif">
+                <img src="portfolio/company-site/2.JPG">
+                <img src="portfolio/company-site/3.JPG">
+                <img src="portfolio/company-site/4.JPG">
     </div>
     </div>
-</section>    
-<section id="about-me">
+</section>
+<!--<section id="about-me">
 </section> 
 <section id="toolkit">
-</section>
+</section>-->
 <section id="contact">
     <h2>Let's Connect!</h2>
-    <p>If you're interested in collaborating on a project together, or just want a chat - You can find e on social media or contact me using the form here!</p>
-    <div class="social-links">
+    <p>If you're interested in collaborating on a project together, or just want a chat - You can find me on social media or contact me using the form here!</p>
+  <!--  <div class="social-links">
     <ul>
-        <li><a class="social social-linkedin"></a></li>
+        <li><a class="social social-linkedin" href="https://www.linkedin.com/in/georgia-h-00019714a/"></a></li>
         <li><a class="social social-twitter"></a></li>
         <li><a class="social social-codepen"></a></li>
         <li><a class="social social-github"></a></li>
-        <li><a class="social social-mail"></a></li>
+        <li><a class="social social-mail" href="mailto:"></a></li>
     </ul>
-    </div>
+    </div>-->
+    <div id="contact-form">
+    <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+    <textarea placeholder="Enquiry"></textarea>
+        <input type="submit"></div>
 </section> 
+    <div id="toolkit">
+        <h4>Accessibility</h4>
+        <p>
+    <input type="checkbox" value="dark" name="dark-night-toggle" id="dark-night-toggle">
+    <label for="dark-night-toggle">Dark/Light Mode</label>
+  </p>
+        <p>
+    <input type="checkbox" value="dark" name="animations-toggle" id="animations-toggle">
+    <label for="animations-toggle">Disable Animations</label>
+  </p>
+        -Increase Text/Decrease Text
+    -Greyscale
+        -Links Underline/Highlight links
+        -Readable font
+        -High Contrast
+        
+                <h4>Customisation</h4>
+<input type="color" value="#819d6e" id="primary-colour" for="primary-colour">
+        <label for="primary-colour">Primary Colour</label>
+
+-Background Colour
     
+                <h4>The fun stuff</h4>
+  <p>
+    <input type="checkbox" value="break-me" name="break-this-site" id="break-this-site">
+    <label for="break-this-site">Break this site</label>
+  </p>
+  <p>
+    <input type="checkbox" value="dark" name="make-it-puppies" id="make-it-puppies">
+    <label for="make-it-puppies">Make it puppies</label>
+  </p>
+  <p>
+    <input type="checkbox" value="dark" name="make-it-noughties" id="make-it-noughties">
+    <label for="make-it-noughties">Make it noughties</label>
+  </p>
+   </div>
 <footer>
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
