@@ -211,6 +211,7 @@ section#intro p, section#intro h1 {
     background: none;
     border: none;
     border-bottom: 2px solid var(--text-lighter);
+    border-radius: 0;
     padding: 10px;
     margin: 5px 0;
     color:var(--text-lighter);
